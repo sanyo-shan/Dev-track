@@ -140,7 +140,7 @@ Retrieves information about a specific reporter.
 
 **Failure Response:** Returns an error when the reporter ID does not exist.
 
-![Get Reporter by ID - Failure](images/Reporter-getByIdFail.png)
+![Get Reporter by ID - Failure](images/Reporters-getByIdFail.png)
 
 #### 3.7 Create Reporter
 
