@@ -1,1 +1,18 @@
-[]
+[
+    {
+        "id": 1,
+        "title": "Title not Displaying",
+        "description": "Title card is not displaying in the header",
+        "status": "open",
+        "priority": "low",
+        "reporter_id": 1
+    },
+    {
+        "id": 2,
+        "title": "Image not posting",
+        "description": "Image is not posted when trying to post. ",
+        "status": "open",
+        "priority": "critical",
+        "reporter_id": 1
+    }
+]

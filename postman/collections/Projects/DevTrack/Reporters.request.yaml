@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/reporters/
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \        \"id\": 2,\r
+
+    \        \"name\": \"ronaldo\",\r
+
+    \        \"email\": \"ronaldo@gmail.com\",\r
+
+    \        \"team\": \"Dev\"\r
+
+    \    }"
+order: 5000

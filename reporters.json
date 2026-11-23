@@ -10,5 +10,11 @@
         "name": "sanyo",
         "email": "sanyoshan@gmail.com",
         "team": "QA"
+    },
+    {
+        "id": 2,
+        "name": "ronaldo",
+        "email": "ronaldo@gmail.com",
+        "team": "Dev"
     }
 ]
