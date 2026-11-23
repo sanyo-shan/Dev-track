@@ -74,11 +74,11 @@ Retrieves a specific issue using its unique ID.
 
 **Success Response:** Returns the requested issue when the ID exists.
 
-![Get Issue by ID - Success](images/issues_get_by_id_success.png)
+![Get Issue by ID - Success](images/Issues-getById.png)
 
 **Failure Response:** Returns an error when the requested issue ID does not exist.
 
-![Get Issue by ID - Failure](images/issues_get_by_id_fail.png)
+![Get Issue by ID - Failure](images/Issues-getByIdFail.png)
 
 #### 3.3 Create Issue
 
@@ -88,11 +88,11 @@ Creates a new issue with the provided details, such as title, status, and priori
 
 **Success Response:** Issue is successfully created when the submitted data is valid.
 
-![Create Issue - Success](images/issues_post_success.png)
+![Create Issue - Success](images/Issues-postSuccess.png)
 
 **Failure Response:** Returns a validation error when the submitted data is invalid or the issue ID already exists.
 
-![Create Issue - Failure](images/issues_post_fail.png)
+![Create Issue - Failure](images/Issues-postFail.png)
 
 #### 3.4 Get Issues by Status
 
@@ -102,11 +102,11 @@ Filters and retrieves issues based on their current status.
 
 **Success Response:** Returns issues matching the requested status.
 
-![Get Issues by Status - Success](images/issues_get_by_status_success.png)
+![Get Issues by Status - Success](images/Issues-getByStatus.png)
 
 **Failure Response:** Shows the error response for an invalid or unsupported status.
 
-![Get Issues by Status - Failure](images/issues_get_by_status_fail.png)
+![Get Issues by Status - Failure](images/Issues-getByStatusFail.png)
 
 ---
 
@@ -126,7 +126,7 @@ The Reporters API manages information about users who report issues.
 
 Retrieves all registered reporters.
 
-![Get All Reporters](images/reporters_get_all.png)
+![Get All Reporters](images/Reporters-getAll.png)
 
 #### 3.6 Get Reporter by ID
 
@@ -136,11 +136,11 @@ Retrieves information about a specific reporter.
 
 **Success Response:** Returns the reporter details when the ID exists.
 
-![Get Reporter by ID - Success](images/reporters_get_by_id_success.png)
+![Get Reporter by ID - Success](images/Reporter-getById.png)
 
 **Failure Response:** Returns an error when the reporter ID does not exist.
 
-![Get Reporter by ID - Failure](images/reporters_get_by_id_fail.png)
+![Get Reporter by ID - Failure](images/Reporter-getByIdFail.png)
 
 #### 3.7 Create Reporter
 
@@ -150,11 +150,11 @@ Creates a new reporter using the submitted information.
 
 **Success Response:** Reporter is created successfully when valid data is provided.
 
-![Create Reporter - Success](images/reporters_post_success.png)
+![Create Reporter - Success](images/Reporters-post.png)
 
 **Failure Response:** Returns a validation error when the submitted information is invalid.
 
-![Create Reporter - Failure](images/reporters_post_fail.png)
+![Create Reporter - Failure](images/Reporters-postFail.png)
 
 ## 4. Design Decision
 
